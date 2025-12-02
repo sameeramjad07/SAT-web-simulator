@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Dna } from "lucide-react";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -49,10 +50,11 @@ export default function Header() {
             Docs
           </a>
         </div>
-
-        <button className="px-4 py-2 rounded-lg bg-accent text-accent-foreground font-medium hover:opacity-90 transition">
-          GitHub
-        </button>
+        <Link href="https://github.com/sameeramjad07/SAT-web-simulator">
+          <button className="px-4 py-2 rounded-lg bg-accent text-accent-foreground font-medium hover:opacity-90 transition cursor-pointer">
+            GitHub
+          </button>
+        </Link>
       </nav>
     </header>
   );

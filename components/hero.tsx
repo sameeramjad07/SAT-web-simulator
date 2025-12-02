@@ -78,7 +78,7 @@ export default function Hero({ onStartSimulating }: HeroProps) {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition" />
             </motion.button>
             <motion.a
-              href="https://github.com"
+              href="https://github.com/sameeramjad07/SAT-web-simulator"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 rounded-lg border border-primary text-primary font-semibold hover:bg-secondary transition flex items-center justify-center gap-2"

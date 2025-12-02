@@ -119,7 +119,7 @@ export default function Features() {
               implementation specifics on our GitHub repository.
             </p>
             <motion.a
-              href="https://github.com"
+              href="https://github.com/sameeramjad07/SAT-web-simulator"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition w-fit"
