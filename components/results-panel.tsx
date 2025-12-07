@@ -101,7 +101,7 @@ export default function ResultsPanel({ result }: ResultsPanelProps) {
                         <span key={varNum} className="mr-4">
                           <span className="text-accent">x{varNum}</span>
                           {" = "}
-                          <span className="text-secondary font-bold">
+                          <span className="text-foreground font-bold">
                             {value ? "T" : "F"}
                           </span>
                         </span>
